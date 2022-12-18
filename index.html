@@ -1,0 +1,185 @@
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Aldrin Enano</title>
+  <meta name="author" content="Aldrin Enano">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+  <style>
+  * { margin: 0; padding: 0; }
+html { height: 101%;}
+body { background-color: #72bcd4;
+background-image: url("http://www.transparenttextures.com/patterns/checkered-pattern.png");
+       font-size: 62.5%; 
+       padding-bottom: 65px; }
+
+h1 { font-family: "Roboto", "Trebuchet MS", Arial, sans-serif; color: #454545; font-size: 3.6em; margin-bottom: 6px; font-weight: 900; }
+h2 { font-family: "Roboto", "Trebuchet MS", Arial, sans-serif; color: #484848; font-size: 2.5em; margin-bottom: 10px; text-decoration: underline; }
+h3 { font-family: "Roboto","Trebuchet MS", Verdana, Arial, sans-serif; color: #777; font-weight: normal; font-size: 1.8em; margin-bottom: 10px; }
+h4 { font-family: "Roboto", "Trebuchet MS", Verdana, Arial, sans-serif; color: #656565; font-weight: bold; font-size: 1.75em; margin-bottom: 4px; }
+h5 { font-family: "Roboto", "Trebuchet MS"; color:#656565; font-weight: bold; font-size: 1.75em; margin-bottom: 4px; text-align:center; opacity: 0.5;}
+
+p { font-family: "Roboto", "Droid Serif", serif; color: #565656; font-size: 1.8em; line-height: 1.4em; margin-bottom: 15px; padding-left: 35px; }
+small { font-family: "Roboto", "Droid Serif", serif; color: #656565; font-size: 1.6em; display: block; margin-bottom: 6px; }
+ul { display: block; list-style: none; }
+ul li { padding-left: 45px; list-style-type: none; vertical-align: top; background: url('images/bullet.png') 25px 5px no-repeat; margin-bottom: 5px; font-family: "Roboto", "Droid Serif", serif; color: #666; font-size: 1.6em; line-height: 1.6em; }
+
+img { border: 0; max-width: 175px;}
+
+a { color: #5582d6; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/** @group core layout **/
+#w { margin: 0px 50px; padding: 20px 40px; padding-top: 35px; background: #fff; min-width: 260px; max-width: 900px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px; }
+
+header { width: 100%; }
+
+/** @group personal settings **/
+#info { float: left; margin-bottom: 12px; }
+#photo { float: right; }
+#photo img { 
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+background-color: #72bcd4;
+border: 1px solid #ccc;
+padding: 5px; 
+}
+
+/** @group middle section **/
+#edudates {display: inline-block; padding-right: 15px; vertical-align:top; border-right: thick solid #72d48a; margin-top: 15px;}
+#education {display: inline-block; padding-left: 15px; margin-top:15px;}
+#expdates {display: inline-block; padding-right: 15px; vertical-align:top; border-right: thick solid #d472bc; margin-top:15px;}
+#experience {display: inline-block; padding-left: 15px; margin-top:15px;}
+
+/** @group skills **/
+#skillborder {display: inline-block; padding-right: 15px; border-right: thick solid #d48a72; margin-top:15px; vertical-align:top; width:62px; height:250px;}
+#skills {display: inline-block; margin-right: 30px; margin-top:15px; vertical-align:top; padding-left: 15px;}
+
+/** @group certs **/
+#certborder {display: inline-block; padding-right: 15px; border-right: thick solid #728bd4; margin-top:15px; vertical-align:top; width:62px; height:230px;}
+#cert {display: inline-block; margin-right: 30px; margin-top:15px; vertical-align:top; padding-left: 15px;}
+
+/** @group research **/
+/*#researchborder {display: inline-block; border-top: thick solid #1e5364; margin-top:15px; vertical-align:top; position:relative; left:77px; width:87%;}*/
+#researchborder {display: inline-block; padding-right: 15px; border-right: thick solid #728bd4; margin-top:15px; vertical-align:top; width:20%px; height:230px;}
+#research {display: inline-block; margin-right: 30px; margin-top:15px; vertical-align:top; padding-left: 15px; width:60%;}
+
+.material-icons.md36 {font-size: 36px; display:inline-block; margin-left:15px;}
+
+/** @group clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+/** This section for responsive design **/
+@media only screen and (max-width: 740px) {
+	h1 { font-size: 4.5em; }
+	h3 { font-size: 2.2em; }
+	h2 { display: block; text-align: center; }
+	#info { float: none; display: block; text-align: center; }
+	#photo {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	#w { padding: 20px 15px; }
+	p { padding: 0; }
+}
+
+@media only screen and (max-width: 570px) {
+	ul li {
+		display: inline-block; 
+		padding-left: 15px; 
+		width: 140px; 
+		background-position: -5px 0px;
+		margin-right: 6px; 
+		line-height: 1.7em;
+	}
+	#skills-left, skills-right { margin-bottom: 15px; }
+}
+
+@media only screen and (max-width: 480px) {
+	ul li { width: 120px; }
+	#w { margin: 0 20px; }
+}
+
+@media only screen and (max-width: 320px) {
+	#w { margin: 0 10px; }
+}
+
+/** iPhone only **/
+@media screen and (max-device-width: 480px) {
+	ul li { width: 150px; }
+}
+  </style>
+</head>
+
+<body>
+  <div id="w" itemscope itemtype="http://schema.org/Person">
+    <header class="clearfix">
+      <div id="info">
+        <h1><span itemprop="name">Aldrin Enano</span></h1>
+		<small>
+				  <span itemprop="addressLocality"><strong>Sorsogon</strong></span>, 
+				  <span itemprop="addressRegion"><strong>Philippines</strong></span>
+			</small>
+       <h5><a href="aboutme.html">About Me</a>|<a href="contactme22.html">Contact Me</a></h5>
+      </div>
+
+      <div id="photo">
+        <img src="keke-modified.png" alt="Aldrin Enano's resume photo" itemprop="image" />
+		
+      </div>
+    </header	
+    
+    <div>
+      <section id="edudates">
+        <h5><br><br>College</h5><br><br><br><h5>Senior Highschool</h5><br><br><br><h5>High School</h5><br><br><br><h5>Elementary</h5>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <h4>The Lewis Colege</h4><br><br><br>
+		<h4>Bicol Merchant Marine Inc.</h4><br><br><br>
+		<h4>Bagacay National HighSchool</h4><br><br><br>
+		<h4>Ogao Elementary School</h4>
+		
+
+
+          <p><span itemprop="alumniOf"></span></p>
+      </section>
+    </div>
+    <div>   
+      <section id="expdates">
+        <h5><br><br>Playing online games</h5><br><br><br><h5>Sports</h5><br><br><br><h5>Foods</h5>
+      </section>
+      <section id="experience">
+          <h2>Hobbies</h2>
+          <h4>Mobile Legends,Clash of Call of Duty</h4><br><br><br>
+          <h4>Basketball</h4><br><br><br>
+          <h4>Anything except sweets</h4><br><br><br>
+        </ul>
+      </section>
+    </div>
+
+    <div>
+      <section id="skills" class="clearfix">
+        <h2>Skills</h2>
+        <section id="skillset">
+          <h5><p> interpersonal skills, such as communication, to more technical skills, like programming and coding.</p></h5>
+        </section>
+      
+</body>
+
+</html>
